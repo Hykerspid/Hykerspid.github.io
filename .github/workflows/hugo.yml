@@ -34,7 +34,7 @@ jobs:
       - name: Install Dart Sass
         run: |
           wget https://github.com/sass/dart-sass/releases/download/1.94.2/dart-sass-1.94.2-linux-arm64-musl.tar.gz
-          tar -xf dart-sass-1.77.6-linux-x64.tar.gz
+          tar -xf dart-sass-1.94.2-linux-arm64-musl.tar.gz
           echo "$(pwd)/dart-sass" >> $GITHUB_PATH
 
       - name: Build
