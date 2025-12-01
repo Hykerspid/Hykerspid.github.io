@@ -32,7 +32,10 @@ jobs:
           extended: true
 
       - name: Install Dart Sass
-        run: npm install -g sass
+        run: |
+          wget https://github.com/sass/dart-sass/releases/download/1.77.6/dart-sass-1.77.6-linux-x64.tar.gz
+          tar -xf dart-sass-1.77.6-linux-x64.tar.gz
+          echo "$(pwd)/dart-sass" >> $GITHUB_PATH
 
       - name: Build
         run: hugo --minify
