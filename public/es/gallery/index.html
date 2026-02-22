@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,8 +32,9 @@
   <meta property="og:site_name" content="Hugo Profile">
   <meta property="og:title" content="Galería de Imágenes">
   <meta property="og:description" content="Mi galería :earth_asia:">
-  <meta property="og:locale" content="es">
+  <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
+    <meta property="article:section" content="es">
     <meta property="article:published_time" content="2022-06-25T18:35:46+05:30">
     <meta property="article:modified_time" content="2022-06-25T18:35:46+05:30">
 
@@ -46,18 +47,10 @@
 
 
   
-    <link rel="alternate" hreflang="en" href="http://localhost:1313/gallery/" title="English">
-  
-    <link rel="alternate" hreflang="es" href="http://localhost:1313/es/gallery/" title="Español">
-  
-    <link rel="alternate" hreflang="fr" href="http://localhost:1313/fr/gallery/" title="Français">
+    <link rel="alternate" hreflang="en" href="http://localhost:1313/es/gallery/" title="English">
   
   
-  <meta property="og:locale" content="es">
-  
-    <meta property="og:locale:alternate" content="en">
-  
-    <meta property="og:locale:alternate" content="fr">
+  <meta property="og:locale" content="en">
   
 
 
@@ -199,17 +192,17 @@ Galería de Imágenes | Hugo Profile
     <nav class="pt-3 navbar navbar-expand-lg animate">
         <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
             
-            <a class="navbar-brand primary-font text-wrap" href="/es/">
+            <a class="navbar-brand primary-font text-wrap" href="/">
                 
                 <img src="/fav.png" width="30" height="30"
                     class="d-inline-block align-top">
-                Hugo Profile
+                SGurtner
                 
             </a>
 
             
                 <div>
-                    <input id="search" autocomplete="off" class="form-control mr-sm-2 d-none d-md-block" placeholder='Buscar...'
+                    <input id="search" autocomplete="off" class="form-control mr-sm-2 d-none d-md-block" placeholder='Search...'
                         aria-label="Search" oninput="searchOnChange(event)">
                 </div>
             
@@ -228,60 +221,60 @@ Galería de Imágenes | Hugo Profile
                     
                         <li class="nav-item navbar-text d-block d-md-none">
                             <div class="nav-link">
-                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='Buscar...' aria-label="Search" oninput="searchOnChange(event)">
+                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='Search...' aria-label="Search" oninput="searchOnChange(event)">
                             </div>
                         </li>
                     
 
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/es/#about" aria-label="about">
-                            Sobre Mí
+                        <a class="nav-link" href="/#about" aria-label="about">
+                            About Me
                         </a>
                     </li>
                     
 
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/es/#experience"
+                        <a class="nav-link" href="/#experience"
                             aria-label="experience">
-                            Experiencia
+                            Experience
                         </a>
                     </li>
                     
 
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/es/#education"
+                        <a class="nav-link" href="/#education"
                             aria-label="education">
-                            Educación
+                            Education
                         </a>
                     </li>
                     
 
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/es/#projects"
+                        <a class="nav-link" href="/#projects"
                             aria-label="projects">
-                            Proyectos
+                            Projects
                         </a>
                     </li>
                     
 
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/es/#achievements"
+                        <a class="nav-link" href="/#achievements"
                             aria-label="achievements">
-                            Logros
+                            Achievements
                         </a>
                     </li>
                     
 
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/es/#contact"
+                        <a class="nav-link" href="/#contact"
                             aria-label="contact">
-                            Contacto
+                            Contact
                         </a>
                     </li>
                     
@@ -293,7 +286,7 @@ Galería de Imágenes | Hugo Profile
                     
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/es/blogs" title="Publicaciones del blog">
+                        <a class="nav-link" href="/blogs" title="Blog posts">
                             
                             Blog
                         </a>
@@ -303,9 +296,9 @@ Galería de Imágenes | Hugo Profile
                     
                     
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/es/gallery" title="Galería de imágenes">
+                        <a class="nav-link" href="/gallery" title="Image gallery">
                             
-                            Galería
+                            Gallery
                         </a>
                     </li>
                     
@@ -315,21 +308,17 @@ Galería de Imágenes | Hugo Profile
         data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         
             🌐
-            <span class="d-none d-md-inline">Español</span>
+            <span class="d-none d-md-inline">English</span>
         
     </a>
     <div class="dropdown-menu shadow-lg rounded" aria-labelledby="languageDropdown"><a class="dropdown-item text-center nav-link" 
-               href="/gallery/" 
-               title="English">
-                English
-            </a><a class="dropdown-item text-center nav-link active" 
-               href="/es/gallery/" 
-               title="Español">
-                Español
-            </a><a class="dropdown-item text-center nav-link" 
-               href="/fr/gallery/" 
+               href="/fr/" 
                title="Français">
                 Français
+            </a><a class="dropdown-item text-center nav-link active" 
+               href="/" 
+               title="English">
+                English
             </a></div>
 </li>
 
@@ -444,26 +433,26 @@ Galería de Imágenes | Hugo Profile
             <div class="card h-100">
                 
                 <div class="card-header">
-                    <a href="/es/blogs/math/">
-                        <img src="/images/mathjax.png" class="card-img-top" alt="Renderizar Matemáticas con Mathjax">
+                    <a href="/blogs/math/">
+                        <img src="/images/mathjax.png" class="card-img-top" alt="Render Math With Mathjax">
                     </a>
                 </div>
                 
                 <div class="card-body bg-transparent p-3 shadow-sm">
-                    <a href="/es/blogs/math/" class="primary-font card-title">
-                        <h5 class="card-title bg-transparent" title="Renderizar Matemáticas con Mathjax">Renderizar Matemáticas …</h5>
+                    <a href="/blogs/math/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Render Math With Mathjax">Render Math With Mathjax</h5>
                     </a>
                     <div class="card-text secondary-font">
                         <p><h2 id="mathjax">Mathjax</h2>
-<p>Las ecuaciones matemáticas se pueden renderizar usando la sintaxis de <a href="https://www.mathjax.org">Mathjax</a> con soporte de símbolos AMS.</p>
-<p>Opcionalmente, habilita esto por página agregando <code>mathjax: true</code> a tu frontmatter.</p>
-<p>Luego, usa <code>$$ ... $$</code> en una línea por sí sola para renderizar una ecuación de bloque:</p>
-<p>$$ | Pr_{x …</p></p>
+<p>Math equations can be rendered using <a href="https://www.mathjax.org">Mathjax</a> syntax with AMS symbol support.</p>
+<p>Optionally enable this on a per-page basis by adding <code>mathjax: true</code> to your frontmatter.</p>
+<p>Then, use <code>$$ ... $$</code> on a line by itself to render a block equation:</p>
+<p>$$ | Pr_{x \leftarrow P_{1}} [A(x) = 1] - Pr_{x \leftarrow …</p></p>
                     </div>
                 </div>
                 <div class="mt-auto card-footer">
-                    <span class="float-start">9 de diciembre de 2022</span>
-                    <a href="/es/blogs/math/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    <span class="float-start">December 9, 2022</span>
+                    <a href="/blogs/math/" class="float-end btn btn-outline-info btn-sm">Read</a>
                 </div>
             </div>
         </div>
@@ -472,23 +461,23 @@ Galería de Imágenes | Hugo Profile
             <div class="card h-100">
                 
                 <div class="card-header">
-                    <a href="/es/blogs/markdown-syntax/">
-                        <img src="/images/post.jpg" class="card-img-top" alt="Sintaxis de Markdown">
+                    <a href="/blogs/markdown-syntax/">
+                        <img src="/images/post.jpg" class="card-img-top" alt="Markdown Syntax">
                     </a>
                 </div>
                 
                 <div class="card-body bg-transparent p-3 shadow-sm">
-                    <a href="/es/blogs/markdown-syntax/" class="primary-font card-title">
-                        <h5 class="card-title bg-transparent" title="Sintaxis de Markdown">Sintaxis de Markdown</h5>
+                    <a href="/blogs/markdown-syntax/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Markdown Syntax">Markdown Syntax</h5>
                     </a>
                     <div class="card-text secondary-font">
-                        <p><h2 id="párrafo">Párrafo</h2>
+                        <p><h2 id="paragraph">Paragraph</h2>
 <p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus …</p></p>
                     </div>
                 </div>
                 <div class="mt-auto card-footer">
-                    <span class="float-start">3 de abril de 2021</span>
-                    <a href="/es/blogs/markdown-syntax/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    <span class="float-start">April 3, 2021</span>
+                    <a href="/blogs/markdown-syntax/" class="float-end btn btn-outline-info btn-sm">Read</a>
                 </div>
             </div>
         </div>
@@ -497,25 +486,25 @@ Galería de Imágenes | Hugo Profile
             <div class="card h-100">
                 
                 <div class="card-header">
-                    <a href="/es/blogs/emoji-support/">
-                        <img src="/images/post.jpg" class="card-img-top" alt="Soporte de Emoji">
+                    <a href="/blogs/emoji-support/">
+                        <img src="/images/post.jpg" class="card-img-top" alt="Emoji Support">
                     </a>
                 </div>
                 
                 <div class="card-body bg-transparent p-3 shadow-sm">
-                    <a href="/es/blogs/emoji-support/" class="primary-font card-title">
-                        <h5 class="card-title bg-transparent" title="Soporte de Emoji">Soporte de Emoji</h5>
+                    <a href="/blogs/emoji-support/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Emoji Support">Emoji Support</h5>
                     </a>
                     <div class="card-text secondary-font">
-                        <p><p>Los emoji se pueden habilitar en un proyecto Hugo de varias maneras. :zap:</p>
-<h2 id="soporte-de-emoji">Soporte de Emoji</h2>
-<p>La función <a href="https://gohugo.io/functions/emojify/">emojify</a> se puede llamar directamente en las plantillas o <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Shortcodes en línea</a>.</p>
-<p>Para habilitar emoji globalmente, establece <code>enableEmoji</code> en <code>true</code> en la <a href="https://gohugo.io/getting-started/configuration/">configuración</a> de tu sitio y luego puedes escribir …</p></p>
+                        <p><p>Emoji can be enabled in a Hugo project in a number of ways. :zap:</p>
+<h2 id="emoji-support">Emoji Support</h2>
+<p>The <a href="https://gohugo.io/functions/emojify/">emojify</a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Inline Shortcodes</a>.</p>
+<p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site’s <a href="https://gohugo.io/getting-started/configuration/">configuration</a> and then you can type emoji shorthand codes directly in …</p></p>
                     </div>
                 </div>
                 <div class="mt-auto card-footer">
-                    <span class="float-start">3 de abril de 2021</span>
-                    <a href="/es/blogs/emoji-support/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                    <span class="float-start">April 3, 2021</span>
+                    <a href="/blogs/emoji-support/" class="float-end btn btn-outline-info btn-sm">Read</a>
                 </div>
             </div>
         </div>
@@ -553,7 +542,7 @@ Galería de Imágenes | Hugo Profile
 
     
     <span class="px-1">
-        <a href="https://linkedin.com" target="_blank" aria-label="linkedin">
+        <a href="https://linkedin.com/in/steven-gurtner" target="_blank" aria-label="linkedin">
             <svg xmlns="http://www.w3.org/2000/svg" width='2.4em' height='2.4em' fill="#fff" aria-label="LinkedIn"
                 viewBox="0 0 512 512">
                 <rect width="512" height="512" fill="#0077b5" rx="15%" />
@@ -680,7 +669,7 @@ Galería de Imágenes | Hugo Profile
 
     <script>
       
-      window.searchIndexURL = "/es/index.json";
+      window.searchIndexURL = "/index.json";
     </script>
     <script src="/js/search.js"></script>
 
