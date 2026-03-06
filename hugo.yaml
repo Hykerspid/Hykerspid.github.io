@@ -65,7 +65,7 @@ languages:
         title: "Contact"
         content: "Feel free to reach out via email"
         btnName: "Write to contact@sgurtner.ch"
-        btnLink: mailto:wait@sgurtner.ch
+        btnLink: mailto:contact@sgurtner.ch
 
 outputs:
   home:
@@ -434,7 +434,7 @@ params:
     title: "Contact"
     content: "N'hésitez pas à me contacter par email :"
     btnName: "Écrire à contact@sgurtner.ch"
-    btnLink: mailto:wait@sgurtner.ch
+    btnLink: mailto:contact@sgurtner.ch
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
