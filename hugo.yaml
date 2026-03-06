@@ -24,19 +24,21 @@ languages:
       navbar:
         brandName: "S.Gurtner"
       hero:
-        intro: "Hi, I am"
+        intro: "Hi, I'm"
         title: "Steven Gurtner"
         subtitle: ""
         content: "Welcome to my personal website. This is where I centralize my journey, projects, and thoughts as I evolve both professionally and personally."
         button:
           enable: false
       about:
-        enable: false
+        enable: true
         title: "About"
         content: |-
-          I am currently a master's student in digital forensic science. As investigations increasingly involve digital sources, it is crucial to be able to process this data to extract meaningful information.
+          My name is Steven Gurtner and I am currently studying forensic science in Switzerland. Having discovered a vast field during my bachelor's degree and having an interest in IT, I decided to specialize in digital investigations. 
+
+          At the same time, I cultivate my curiosity through various personal projects, such as developing this website. The goal is not necessarily immediate usefulness, but rather the process of learning and applying the project. Each achievement always brings me more knowledge and experience, which for me is a concrete way to progress independently, combining discovery and efficiency.
       education:
-        enable: false
+        enable: true
         items:
           - title: "Master in Digital Forensic Science"
             school:
@@ -45,15 +47,24 @@ languages:
             date: "2026 - 2028"
             content: |-
               Present
+          - title: "Military service"
+            school:
+              name: "Swiss Armed Forces"
+              url: "https://armee.ch"
+            date: "2025 - 2026"
+            content: |-
+              Determined to fulfill my military obligations in one go, I opted for 10 consecutive months of service in the field of telecommunications. As a directional wave pioneer and C1E/D1E driver, my role consisted of establishing strategic and secure communications in a command support context.
           - title: "Bachelor in Forensic Science"
             school:
               name: "University of Lausanne (UNIL)"
               url: "https://www.unil.ch/esc/en/home/menuinst/formation/bachelor.html"
             date: "2021 - 2025"
             content: |-
-              During these years, I acquired a range of knowledge that allows me to handle a variety of different cases. Among all the courses I took, some stood out more than others. This is the case for courses on narcotics, firearms, arson, and fingerprint detection. However, my favorite courses were those that made me discover what I wanted to pursue in my career: from the first programming courses in the first year to digital forensics and the exploitation of digital traces.
+              During these years, I acquired a range of knowledge that allows me to handle a variety of different cases. Among all the courses I took, some stood out more than others. This is the case for courses on narcotics, firearms, arson, and fingerprint detection.
 
-              Bachelor thesis titled "Cloud forensic: state of the art". In this work, I explore what an investigation in a cloud environment entails, its technical and legal implications, before dedicating a section to AWS to detail the means that can be exploited in a real-world situation.
+              However, my favorite courses were those that made me discover what I wanted to pursue in my career: from the first programming courses in the first year to digital forensics and the exploitation of digital traces.
+
+              In the third year, I wrote a Bachelor thesis titled "Cloud forensic: state of the art". In this work, I explore what an investigation in a cloud environment entails, its technical and legal implications, before dedicating a section to AWS to detail the means that can be exploited in a real-world situation.
       experience:
         enable: false
       projects:
@@ -211,22 +222,13 @@ params:
 
   # About
   about:
-    enable: false
+    enable: true
     title: "À propos"
     image: "/images/moi.png"
     content: |-
       Je m'appelle Steven Gurtner et je suis actuellement en études dans le domaines des sciences criminelles en Suisse. Ayant découvert un vaste domaine en bachelor et ayant un attrait pour le domaine informatique, j'ai décidé de me spécialiser dans le domaine des enquêtes dans le numérique. 
 
-      En parallèle, je cultive ma curiosité à travers de projets personnels, comme la mise au point de ce site par exemple. L'objectif n'est pas forcément l'utilité immédiate mais plutôt le processus d'apprentissage et d'application du projet. Chaque réalisation me fait invariablement ressortir avec davantage de connaissances et d'expérience. C'est pour moi une manière concrète d'enrichir continuellement mes connaissances et mon expérience pratique.
-
-      Voici quelques exemples de projets sur lesquels j'ai pu travailler récemment :
-      - Un outil de visualisation d'articles de vente, dans une perpective d'aide à la prise de décision, développé en Python
-
-      - Une synchronisation de fichiers entre portable et cloud, chiffré et automatisé par un script en bash
-
-      - Récupération de fichiers sur machine Windows par contournement du verouillage Windows Hello à l'aide d'un démarrage sur clé USB
-
-      - Chiffrement intégral d'un disque avec Veracrypt pour sécuriser un portable
+      En parallèle, je cultive ma curiosité à travers différents projets personnels, comme la mise au point de ce site par exemple. L'objectif n'est pas forcément l'utilité immédiate mais plutôt le processus d'apprentissage et d'application du projet. Chaque réalisation me fait toujours ressortir avec davantage de connaissances et d'expérience, ce qui constitue pour moi une manière concrète de progresser de manière autonome, alliant découverte et utilité.
 
 
     skills:
@@ -235,6 +237,14 @@ params:
       items:
         - "Outil"
         - "Outil2"
+        - "      Voici quelques exemples de projets sur lesquels j'ai pu travailler récemment :
+      - Un outil de visualisation d'articles de vente, dans une perpective d'aide à la prise de décision, développé en Python
+
+      - Une synchronisation de fichiers entre portable et cloud, chiffré et automatisé par un script en bash
+
+      - Récupération de fichiers sur machine Windows par contournement du verouillage Windows Hello à l'aide d'un démarrage sur clé USB
+
+      - Chiffrement intégral d'un disque avec Veracrypt pour sécuriser un portable"
 
   # Experience
   experience:
@@ -318,7 +328,7 @@ params:
 
   # Education
   education:
-    enable: false
+    enable: true
     title: "Parcours & Formation"
     index: false
     items:
@@ -480,5 +490,5 @@ params:
     articleList: "Jan 2, 2006"
     articleRecent: "Jan 2, 2006"
 
-  customScripts: -|
+  customScripts:
     <script data-goatcounter="https://sgurtner.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
