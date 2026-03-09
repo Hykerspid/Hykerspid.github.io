@@ -39,6 +39,7 @@ languages:
           At the same time, I cultivate my curiosity through various personal projects, such as developing this website. The goal is not necessarily immediate usefulness, but rather the process of learning and applying the project. Each achievement always brings me more knowledge and experience, which for me is a concrete way to progress independently, combining discovery and efficiency.
       education:
         enable: true
+        title: "Career and Education" 
         items:
           - title: "Master in Digital Forensic Science"
             school:
@@ -354,7 +355,7 @@ params:
           url: "https://www.unil.ch/esc/fr/home/menuinst/formation/bachelor.html"
         date: "2021 - 2025"
         content: |-
-          Pendant ces années j'ai acquis une palette de connaissances qui me permet d'appréhender une multitude de cas différents. Parmi tous les cours que j'ai pu suivre, certains m'ont davantage marqués. Tel est le cas pour les cour sur les stupéfiants, les armes à feu, les incendies ou encore les révélations de traces digitales.
+          Pendant ces années j'ai acquis une palette de connaissances qui me permet d'appréhender une multitude de cas différents. Parmi tous les cours que j'ai pu suivre, certains m'ont davantage marqués. Tel est le cas pour les cours sur les stupéfiants, les armes à feu, les incendies ou encore les révélations de traces digitales.
 
           Cependant, mes cours de prédilection ont été ceux qui m'ont fait découvrir ce dans quoi je voulais poursuivre ma carrière : des premiers cours de programmation en première année, à la criminalistique numérique et l'exploitation des traces numériques.
 
