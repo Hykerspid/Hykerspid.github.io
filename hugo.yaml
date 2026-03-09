@@ -39,7 +39,7 @@ languages:
           At the same time, I cultivate my curiosity through various personal projects, such as developing this website. The goal is not necessarily immediate usefulness, but rather the process of learning and applying the project. Each achievement always brings me more knowledge and experience, which for me is a concrete way to progress independently, combining discovery and efficiency.
       education:
         enable: true
-        title: "Career and Education" 
+        title: "Career & Education" 
         items:
           - title: "Master in Digital Forensic Science"
             school:
