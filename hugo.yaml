@@ -27,7 +27,7 @@ languages:
         intro: "Hi, I'm"
         title: "Steven Gurtner"
         subtitle: ""
-        content: "Welcome to my personal website. This is where I centralize my journey, projects, and thoughts as I evolve both professionally and personally."
+        content: "Welcome to my website. This is where I centralize my journey, projects, and thoughts as I evolve both professionally and personally."
         button:
           enable: false
       about:
@@ -207,7 +207,7 @@ params:
     intro: "Salut, c'est"
     title: "Steven Gurtner"
     subtitle: ""
-    content: "Bienvenue sur mon site personnel. C’est ici que je centralise mon parcours, mes projets et mes réflexions au fil de mon évolution professionnelle et personnelle."
+    content: "Bienvenue sur mon site. C’est ici que je centralise mon parcours, mes projets et mes réflexions au fil de mon évolution professionnelle et personnelle."
     image: /images/moi.png
     bottomImage:
       enable: true
@@ -226,9 +226,9 @@ params:
     title: "À propos"
     image: "/images/moi.png"
     content: |-
-      Je m'appelle Steven Gurtner et je suis actuellement en études dans le domaines des sciences criminelles en Suisse. Ayant découvert un vaste domaine en bachelor et ayant un attrait pour le domaine informatique, j'ai décidé de me spécialiser dans le domaine des enquêtes dans le numérique. 
+      Je m'appelle Steven Gurtner et je suis actuellement en études dans le domaine des sciences criminelles en Suisse. Ayant découvert un vaste domaine en bachelor et ayant un attrait pour le domaine informatique, j'ai décidé de me spécialiser dans le domaine des enquêtes dans le numérique. 
 
-      En parallèle, je cultive ma curiosité à travers différents projets personnels, comme la mise au point de ce site par exemple. L'objectif n'est pas forcément l'utilité immédiate mais plutôt le processus d'apprentissage et d'application du projet. Chaque réalisation me fait toujours ressortir avec davantage de connaissances et d'expérience, ce qui constitue pour moi une manière concrète de progresser de manière autonome, alliant découverte et utilité.
+      En parallèle, je cultive ma curiosité à travers différents projets personnels, comme la mise au point de ce site. L'objectif n'est pas forcément l'exploitation immédiate mais plutôt le processus d'apprentissage et d'application du projet. Chaque réalisation me fait toujours ressortir avec davantage de connaissances et d'expérience, ce qui constitue pour moi une manière concrète de progresser de manière autonome, alliant découverte et utilité.
 
 
     skills:
@@ -354,9 +354,9 @@ params:
           url: "https://www.unil.ch/esc/fr/home/menuinst/formation/bachelor.html"
         date: "2021 - 2025"
         content: |-
-          Pendant ces années j'ai acquis une palette de connaissances qui me permettent d'appréhender une multitude de cas différents. Parmi tous les cours que j'ai pu suivre, certains m'ont davantage marqués. Tel est le cas pour les cour sur les stupéfiants, les armes à feu, les incendies ou encore les révélations de traces digitales.
+          Pendant ces années j'ai acquis une palette de connaissances qui me permet d'appréhender une multitude de cas différents. Parmi tous les cours que j'ai pu suivre, certains m'ont davantage marqués. Tel est le cas pour les cour sur les stupéfiants, les armes à feu, les incendies ou encore les révélations de traces digitales.
 
-          Cependant, mes cours préférés ont été ceux qui m'ont fait découvrir ce dans quoi je voulais poursuivre ma carrière : des premiers cours de programmation en première année, à la criminalistique numérique et l'exploitation des traces numériques.
+          Cependant, mes cours de prédilection ont été ceux qui m'ont fait découvrir ce dans quoi je voulais poursuivre ma carrière : des premiers cours de programmation en première année, à la criminalistique numérique et l'exploitation des traces numériques.
 
           En 3e année, j'ai eu le plaisir de rédiger un travail de bachelor intitulé "Cloud forensic : état de l'art". J'explore dans ce travail en quoi consiste une enquête dans un milieu de cloud, ses implications techniques et légales avant de dédier une partie sur AWS, afin de détailler les moyens que l'on peut exploiter en situation réelle.
  
