@@ -10,12 +10,12 @@ defaultContentLanguageInSubdir: false
 languages:
   fr:
     contentDir: "content/fr"
-    languageName: "🇨🇵 Français"
+    languageName: "Français"
     weight: 1
     menu:
       main: []
   en:
-    languageName: "🇬🇧 English"
+    languageName: "English"
     weight: 2
     contentDir: "content"
     menu:
