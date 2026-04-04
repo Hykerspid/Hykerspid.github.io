@@ -225,7 +225,7 @@ params:
   about:
     enable: true
     title: "À propos"
-    image: "/images/moi.png"
+    image: "/images/selfie2.png"
     content: |-
       Je m'appelle Steven Gurtner et je suis actuellement en études dans le domaine des sciences criminelles en Suisse. Ayant découvert un vaste domaine en bachelor et ayant un attrait pour le domaine informatique, j'ai décidé de me spécialiser dans le domaine des enquêtes dans le numérique. 
 
@@ -347,7 +347,9 @@ params:
           url: "https://armee.ch"
         date: "2025 - 2026"
         content: |-
-          Décidé à accomplir mes obligations militaires d'une traite, j'ai opté pour un service long de 10 mois consécutifs dans le domaine des télécommunications. En tant que pionnier d'ondes dirigées et conducteur C1E/D1E, mon rôle a consisté à l'établissement des communications startégiques et sécurisées dans un contexte d'aide au commandement. 
+          Décidé à accomplir mes obligations militaires d'une traite, j'ai opté pour un service long de 10 mois consécutifs dans le domaine des télécommunications. En tant que pionnier d'ondes dirigées, mon rôle a consisté à l'établissement des communications startégiques et sécurisées dans un contexte d'aide au commandement.
+
+          J'ai par ailleurs été sélectionné pour être conducteur C1E/D1E, ce qui m'a amené à conduire des troupes et du matériel sur toute la durée de mon service, renforçant mon expérience de la route.
             
       - title: "Bachelor en sciences criminelles"
         school:
