@@ -1,0 +1,44 @@
+<style>
+    /* Correction de l'alignement de l'icône du mode sombre/clair */
+    #theme-toggle svg {
+        vertical-align: middle !important;
+        position: relative;
+        top: -1px;
+    }
+    button#theme-toggle {
+        vertical-align: middle !important;
+        margin-top: -4px !important;
+        border: none !important;
+        background: transparent !important;
+        padding: 0 4px !important;
+        transition: color 0.2s ease-in-out;
+    }
+    button#theme-toggle:hover {
+        color: var(--primary-color) !important;
+    }
+    button#theme-toggle:hover svg {
+        color: var(--primary-color) !important;
+    }
+
+    /* Unification des nuances de gris (Avis de designer) */
+    /* 1. Navbar : Un peu plus de contraste pour la lisibilité */
+    .navbar-text {
+        opacity: 1 !important; /* On retire l'opacité 0.95 pour un texte net */
+        color: var(--text-color) !important;
+    }
+
+    /* 2. Hero Section : Harmonisation des gris (Identique pour 1 et 3) */
+    #hero .subtitle, 
+    #hero p.hero-content {
+        opacity: 0.9 !important; /* Unifié pour créer un cadre cohérent autour du nom */
+        color: var(--text-color) !important;
+    }
+
+    #hero .subtitle {
+        font-weight: 500;
+    }
+
+    #hero h2 {
+        opacity: 0.7 !important;
+    }
+</style>
